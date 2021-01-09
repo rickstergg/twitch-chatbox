@@ -1,0 +1,22 @@
+<!-- Template will append to this div -->
+<div id="log" class="sl__chat__layout">
+</div>
+
+<!-- Message template -->
+<script type="text/template" id="chatlist_item">
+  <div data-from="{from}" data-id="{messageId}" class="{from}">
+    <span class="meta" style="color: {color}">
+      <span class="badges">
+      </span>
+      <span class="name">{from}</span>
+      <span style="color:white">:</span>
+    </span>
+
+    <span class="message">
+      {message}
+    </span>
+  </div>
+</script>
+
+<!-- Link to jQuery for JS link -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>

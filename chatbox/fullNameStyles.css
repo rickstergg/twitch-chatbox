@@ -1,0 +1,17 @@
+#log .message, #log .meta {
+  /* vertical-align: top;
+  display: table-cell;
+  padding-bottom: 0.1em;
+  */
+}
+
+#log .meta {
+  width: 35%;
+  text-align: right;
+  padding-right: 0.5em;
+  white-space: nowrap;
+  /* text-overflow: ellipsis;
+  overflow: hidden;*/
+}
+
+/* https://www.reddit.com/r/Twitch/comments/9lfggq/streamlabs_chatbox_doesnt_display_the_full_names/ec4i140?utm_source=share&utm_medium=web2x&context=3 */
